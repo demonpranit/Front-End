@@ -1,0 +1,156 @@
+
+
+.product-page {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.product-gallery {
+  flex: 1;
+  min-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.product-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.product-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.product-details h1 {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.rating i {
+  color: gold;
+}
+
+.price {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.new-price {
+  color: #e63946;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.discount {
+  background: #e63946;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+#qty {
+  margin: 10px 0 20px;
+  padding: 5px;
+  width: 60px;
+}
+
+.description {
+  margin: 20px 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icons div {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+}
+
+.icons i {
+  color: #00b894;
+}
+
+/* Related Products */
+.related-products {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.related-products h2 {
+  margin-bottom: 20px;
+}
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.poster-card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.poster-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.product-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-to-cart {
+  background-color: #0984e3;
+  color: white;
+}
+
+.buy-now {
+  background-color: #e17055;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
